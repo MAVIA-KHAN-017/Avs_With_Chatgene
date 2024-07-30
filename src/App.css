@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scrollbar-color: #232161 #ffffff;
+  scrollbar-width: thin;
+}
+.ant-table-tbody-virtual-scrollbar-thumb {
+  background-color: #232161 !important;
+}
+.ant-table-tbody-virtual-scrollbar-horizontal {
+  /* visibility: hidden; */
+}
+.app-main-container {
+  min-height: 100vh !important;
+  max-height: max-content !important;
+}
+.infinite-scroll-component {
+  overflow-y: hidden !important;
+}
+/* .react-resizable-handle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 10px;
+  height: 100%;
+  cursor: col-resize;
+  touch-action: none;
+} */
+.react-resizable {
+  position: relative;
+  background-clip: padding-box;
+}
+
+.react-resizable-handle {
+  position: absolute;
+  right: -5px;
+  bottom: 0;
+  z-index: 1;
+  width: 10px;
+  height: 100%;
+  cursor: col-resize;
+}
+.ant-table-tbody-virtual,
+.ant-table-tbody-virtual-holder-inner {
+  min-height: 52vh;
+  max-height: fit-content;
+}
+/* .ant-table-tbody-virtual-holder-inner {
+  min-height: 55vh;
+  max-height: 55vh;
+} */
+.ant-table-tbody-virtual-holder {
+  /* min-height: 68vh; */
+  /* max-height: 70vh; */
+}

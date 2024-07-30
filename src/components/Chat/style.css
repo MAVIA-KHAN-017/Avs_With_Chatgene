@@ -1,0 +1,7 @@
+.chat-container {
+    display: flex;
+    height: 55vh;
+    background-color: #131137;
+    font-size: .9rem;
+
+}

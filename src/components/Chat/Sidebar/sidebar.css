@@ -1,0 +1,152 @@
+.sidebar {
+  width: 15%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #ffffff;
+  background-color: #202123;
+}
+.flex-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+.sidebar button {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid rgb(108, 99, 99);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.flex-1 .new-chat {
+  padding-right: 40px;
+}
+.flex-2 button {
+  margin-bottom: 10px;
+}
+
+.flex-2{
+  box-shadow: 0 4px 2px -2px #265c78;
+  border-top: 1px solid aliceblue;
+  border: 1px solid transparent;
+}
+
+.flex-2 span {
+  background-color: #265c78;
+  padding: 4px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.user {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.flex-faqs{
+  width: 100%;
+  box-shadow: 0 3px 4px #0b87f8;
+  /* padding-left: 1rem; */
+  display: flex;
+  align-items: baseline;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.faqs{
+  margin: 0;
+  padding: 1rem;
+}
+
+.prompts{
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.prompts span{
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.chats{
+  margin: 1rem;
+  height: 150%;
+  overflow-y: scroll;
+  width: 100%;
+  height: 100%
+}
+
+.chats p{
+  cursor: pointer;
+  font-size: 16px;
+  /* line-height: 1.5; */
+}
+
+.non-clickable-paragraph {
+  /* pointer-events: none; */
+  cursor: not-allowed !important;
+}
+
+[class^="letter-transform"]::first-letter{
+  text-transform: capitalize;
+}
+
+.prompts-chats{
+  overflow-y: scroll;
+  width: 100%;
+  height: 35%;
+  margin: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 4px grey; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0b87f8; 
+  border-radius: 10px;
+}
+
+.prompts-chats p{
+  cursor: pointer;
+}
+
+/* .prompt-container input{
+  width: 90%;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 3px 4px #0b87f8;
+}
+
+.prompt-container .saveBtn{
+  background-color: #0b87f8;
+  border: none;
+}
+
+.prompt-container .cancelBtn
+
+.prompt-container .cancelBtn:hover{
+  background-color: #ffffff;
+  color: black;
+} */
+
+
+@media only screen and (max-width: 1360px) {
+  .sidebar {
+     display: none;
+  }
+} 
